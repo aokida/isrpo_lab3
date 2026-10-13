@@ -16,8 +16,8 @@
   "contributes": {
     "commands": [
       {
-      "command": "extension.keybinds_processing",
-      "title": "ctrl+alt+l" 
+        "command": "extension.keybinds_processing",
+        "title": "ctrl+alt+l"
       },
       {
         "command": "extension.scanTodos",
@@ -40,14 +40,15 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.134.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "24.x",
-    "typescript-eslint": "^8.61.1",
-    "eslint": "^10.5.0",
-    "typescript": "^6.0.3",
+    "@types/vscode": "^1.134.0",
     "@vscode/test-cli": "^0.0.15",
-    "@vscode/test-electron": "^3.0.0"
+    "@vscode/test-electron": "^3.0.0",
+    "eslint": "^10.5.0",
+    "typedoc": "^0.28.20",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1"
   },
   "overrides": {
     "diff": "^8.0.4",
