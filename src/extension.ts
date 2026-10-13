@@ -63,7 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
                 }
             }
         }
-        // Read existing notes without overwriting personal notes
+        // Reads existing notes without overwriting personal notes
         let existingLines: string[] = [];
 		const bytes = await vscode.workspace.fs.readFile(notesUri);
 		existingLines = Buffer.from(bytes).toString("utf8").split(/\r?\n/);
